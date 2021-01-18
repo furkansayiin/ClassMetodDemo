@@ -24,7 +24,7 @@ namespace ClassMetodDemo
             musteri3.musteriSurname = "Bilgin";
             musteri3.musteriMoney = 7000;
 
-            Musteri[] musteriler = new Musteri[] {musteri1 , musteri2};
+            Musteri[] musteriler = new Musteri[] {musteri1 , musteri2 , musteri3};
             foreach (Musteri musteri in musteriler)
             {
                 Console.WriteLine(musteri.musteriName + musteri.musteriSurname + " : " + musteri.musteriMoney);
@@ -35,7 +35,7 @@ namespace ClassMetodDemo
             musteriManager.Delete(musteri2);
             musteriManager.List(musteri3);
             
-
+            
 
 
         }
